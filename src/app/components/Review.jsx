@@ -9,19 +9,19 @@ const reviews = [
       "I was blown away by the sheer variety of products available on this platform. From electronics to home goods to unique fashion finds, I found everything I was looking for and more. The selection is truly impressive!",
     name: "John Doe",
     position: "Manager, Megatix Steels",
-    img: "/profile1.jpg",
+    img: "/testimonial1.png",
   },
   {
     quote: "Exceptional service and quality. Every product exceeded my expectations!I was blown away by the sheer variety of products available on this platform. From electronics to home goods to unique fashion finds.",
     name: "Jane Smith",
     position: "CEO, Acme Corp",
-    img: "/profile1.jpg",
+    img: "/testimonial3.png",
   },
   {
     quote: "A seamless experience from start to finish. Highly recommended! A seamless experience from start to finish. Highly recommended! A seamless experience from start to finish. Highly recommended!",
     name: "Alex Johnson",
     position: "CTO, Tech Solutions",
-    img: "/profile1.jpg",
+    img: "/testimonial2.png",
   },
 ];
 

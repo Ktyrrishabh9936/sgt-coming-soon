@@ -18,7 +18,7 @@ export default function Home() {
       <Navbar/>
       <HeroPage/>
       <Services/>
-      {/* <IndustryComponent/> */}
+      <IndustryComponent/>
       {/* <FeatureProduct/> */}
       <Choose/>
       <Serve/>

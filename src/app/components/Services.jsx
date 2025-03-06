@@ -5,32 +5,32 @@ export default function Services() {
         {
             imgSrc: "/threed.png",
             title: "3D Designing",
-            description: "Transforming sketches into accurate CAD models"
+            description: "At SGTMake we provide designing solutions in CAD, any rough sketch or part, any drawing, or reverse engineering possible with our designing experts."
         },
         {
             imgSrc: "/printing.png",
             title: "3D Printing",
-            description: " High-quality prints in plastic & metal"
+            description: "We create custom 3D-printed parts in plastic or metal, utilising various technologies to meet your design needs."
         },
         {
             imgSrc: "/maching.png",
             title: "CNC Machining",
-            description: "Precision-made parts in various materials"
+            description: "SGTMake produces precision-machined components from various materials, manufactured to your exact specifications."
         },
         {
             imgSrc: "/cutting.png",
             title: "Laser Cutting",
-            description: "Clean and accurate cuts for all projects"
+            description: "We offer precise laser cutting of various materials, delivering clean and accurate cuts for your projects."
         },
         {
             imgSrc: "/battery.png",
             title: "Battery Packs",
-            description: "Custom-built for EVs, solar, and more"
+            description: "SGTMake designs and assembles custom battery packs tailored to your specific power requirements for EVs, solar setups, and more."
         },
         {
             imgSrc: "/wiring.png",
             title: "Wrining Harnesses",
-            description: " Reliable electrical connections"
+            description: "We build custom wiring harnesses for automotive, EV, and other applications, ensuring reliable electrical connections and power distribution."
         }
     ]
     return (

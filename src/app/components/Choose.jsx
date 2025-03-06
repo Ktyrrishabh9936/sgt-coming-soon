@@ -2,30 +2,36 @@ import Image from "next/image"
 
 export default function Choose(){
     const data=[
-        // {
-        //     img:"/people.png",
-        //     head:"Expertise with a Personal Touch",
-        //     desc:"Our experienced team, specializing in the EV sector, provides personalized service and meticulous attention to detail, regardless of your project's size."
-        // },
+        {
+            img:"/people.png",
+            head:"Expertise with a Personal Touch",
+            desc:"Our experienced team, specializing in the EV sector, provides personalized service and meticulous attention to detail, regardless of your project's size."
+        },
         {
             img:"/cng.png",
             head:"Unbeatable CNC Pricing",
-            desc:"Get the best rates without compromising on quality"
+            desc:"We offer globally competitive CNC machining prices, maximizing your budget without compromising quality."
         },
         {
             img:"/fast.png",
-            head:"End-to-End Manufacturing",
-            desc:"From prototype to final product, we do it all."
+            head:"Fast, Reliable Tournarounds",
+            desc:"We handle everything from design and prototyping to full-scale manufacturing, simplifying your project management."
         },
         {
             img:"/medal.png",
-            head:"Rapid Turnaround",
-            desc:"Fast & efficient production to meet your deadlines"
+            head:"One Stop Shop for Product Development",
+            desc:"We handle everything from design and prototyping to full-scale manufacturing, simplifying your project management."
         },
         {
+            img:"/window.png",
+            head:"Turning Ideas into Reality",
+            desc:"We're dedicated to helping you bring your concepts to life, providing the expertise and resources to make it happen."
+        },
+       
+        {
             img:"/quality.png",
-            head:"Precision & Quality",
-            desc:"Every product meets the highest industry standards"
+            head:"Uncompromising Quality & Precision",
+            desc:"From concept to completion, we maintain the highest standards, ensuring exceptional results every time."
         }
     ]
     return<>

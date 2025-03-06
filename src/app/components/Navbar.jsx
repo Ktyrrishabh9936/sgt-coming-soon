@@ -36,13 +36,13 @@ const Navbar = () => {
       </ul>
 
     
-      {/* <div className="hidden md:flex items-center gap-4">
-        <Search className="w-5 h-5 cursor-pointer" />
-        <ShoppingCart className="w-5 h-5 cursor-pointer" />
-        <Link href="/signin" className="bg-orange-500 text-white px-4 py-2 rounded-md">
-          Sign In
-        </Link>
-      </div> */}
+      <div className="hidden md:flex items-center gap-4">
+        {/* <Search className="w-5 h-5 cursor-pointer" /> */}
+        {/* <ShoppingCart className="w-5 h-5 cursor-pointer" /> */}
+        <div  className="bg-orange-500 text-white px-4 py-2 rounded-md">
+          Contact Us
+        </div>
+      </div>
 
       <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>
         {isOpen ? <X className="w-6 h-6" /> : <Menu className="w-6 h-6" />}
