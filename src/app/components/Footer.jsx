@@ -7,8 +7,8 @@ const Footer = () => {
      const [activeSection, setActiveSection] = useState("home");
     return (
         <footer className="bg-[#18191A] text-white p-8 mt-8">
-            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-5 gap-6">
-                <div>
+            <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 text-center max-w-6xl">
+                <div className=" flex items-center flex-col">
                     <img src="/logo.png" alt="Logo" className="w-32 mb-4 bg-white p-3 rounded-lg shadow-lg shadow-orange-400" />
           
                     <div className="flex space-x-3 mt-4 text-xl">
@@ -32,7 +32,7 @@ const Footer = () => {
                     <h3 className="font-semibold mb-3">Quick Links</h3>
                     <ul className="text-sm space-y-2">
                     {sections.map((section) => (
-      <Link
+   <li>   <Link
       key={section.link}
       to={section.link}
       spy={true}
@@ -43,11 +43,11 @@ const Footer = () => {
       onSetActive={() => setActiveSection(section.link)}
     >
       {section.name}
-    </Link>
+    </Link></li>
       ))}
                     </ul>
                 </div>
-                <div>
+                {/* <div>
                     <h3 className="font-semibold mb-3">More</h3>
                     <ul className="text-sm space-y-2">
                         <li>Cart</li>
@@ -55,7 +55,7 @@ const Footer = () => {
                         <li>Track Orders</li>
                         <li>Help Center</li>
                     </ul>
-                </div>
+                </div> */}
                 {/* <div className="">
                     <h3 className="font-semibold mb-3">Subscribe</h3>
                     <input type="email" placeholder="Enter Email" className="w-full p-2 mb-2 rounded text-black border-orange-400" />
