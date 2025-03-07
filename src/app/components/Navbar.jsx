@@ -39,9 +39,14 @@ const Navbar = () => {
       <div className="hidden md:flex items-center gap-4">
         {/* <Search className="w-5 h-5 cursor-pointer" /> */}
         {/* <ShoppingCart className="w-5 h-5 cursor-pointer" /> */}
-        <div  className="bg-orange-500 text-white px-4 py-2 rounded-md">
+        <Link  to="contact"
+      spy={true}
+      smooth={true}
+      offset={-70}
+      duration={500}
+      onSetActive={() => setActiveSection("contact")}  className="bg-orange-500 text-white px-4 py-2 cursor-pointer rounded-md">
           Contact Us
-        </div>
+        </Link>
       </div>
 
       <button className="md:hidden" onClick={() => setIsOpen(!isOpen)}>

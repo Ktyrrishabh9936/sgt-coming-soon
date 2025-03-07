@@ -10,6 +10,7 @@ import Choose from "./components/Choose";
 import Serve from "./components/Serve";
 import CustomerReview from "./components/Review";
 import GlobalDelivery from "./components/GlobalDelivery";
+import ContactUs from "./components/contactUs";
 
 export default function Home() {
   return (
@@ -24,6 +25,7 @@ export default function Home() {
       <Serve/>
       <CustomerReview/>
       <GlobalDelivery/>
+      <ContactUs/>
       <Footer/>
     </>
   );
