@@ -35,8 +35,8 @@ export default function Services() {
     ]
     return (
         <>
-            <div className="mt-6" id="services">
-                <h1 className="text-center text-4xl font-bold mb-6">Discover Our Services</h1>
+            <div className="my-8" id="services">
+                <h1 className="text-center text-4xl font-bold mb-10">Discover Our Services</h1>
 
                 <div className="m-3 md:m-2 mt-3 flex flex-wrap justify-center gap-6">
                     {data.map((item, index) => (

@@ -23,7 +23,7 @@ const Navbar = () => {
       to={section.link}
       spy={true}
       smooth={true}
-      offset={-70}
+      offset={-100}
       duration={500}
       className={`cursor-pointer ${
         activeSection === section.link ? "text-orange-500 font-bold" : ""
@@ -42,7 +42,7 @@ const Navbar = () => {
         <Link  to="contact"
       spy={true}
       smooth={true}
-      offset={-70}
+      offset={-100}
       duration={500}
       onSetActive={() => setActiveSection("contact")}  className="bg-orange-500 text-white px-4 py-2 cursor-pointer rounded-md">
           Contact Us

@@ -35,8 +35,8 @@ export default function Choose(){
         }
     ]
     return<>
-        <div className="mt-5" id="choose">
-        <h1 className="text-center text-4xl font-semibold">Why Choose SGTMake</h1>
+        <div className="mt-7" id="choose">
+        <h1 className="text-center text-4xl font-semibold mb-10">Why Choose SGTMake</h1>
         <div className="m-3 md:m-2 mt-7 flex flex-wrap justify-center gap-6">
             {
                 data.map((item,i)=>(

@@ -35,8 +35,8 @@ export default function Serve() {
     ];
 
     return (
-        <section className="p-0 md:p-8" id='serve'>
-            <h1 className="text-4xl font-bold text-center mb-8">Industries We Serve</h1>
+        <section className="mt-16" id='serve'>
+            <h1 className="text-4xl font-bold text-center ">Industries We Serve</h1>
             <div className="flex flex-wrap justify-around gap-6">
                 {data.map((item, index) => (
                     index % 2 === 0
@@ -50,8 +50,8 @@ export default function Serve() {
 
 const ServeCard = ({ img, head, desc }) => {
     return (
-        <div className="flex flex-col md:flex-row items-center bg-white rounded-2xl shadow p-6 m-5">
-            <div className="md:w-1/2 w-full rounded-2xl overflow-hidden flex justify-center items-center">
+        <div className="flex flex-col md:flex-row  justify-center items-center bg-white rounded-2xl shadow p-6 m-5 gap-6 ">
+            <div className="md:w-auto w-full rounded-2xl overflow-hidden flex justify-center items-center">
                 <Image src={img} alt={head} height={500} width={500} className="object-cover rounded-xl" />
             </div>
             <div className="mt-7 md:mt-0 flex flex-col justify-center md:w-1/2 w-full">
@@ -64,12 +64,12 @@ const ServeCard = ({ img, head, desc }) => {
 
 const ServeCard2 = ({ img, head, desc }) => {
     return (
-        <div className="flex flex-col-reverse md:flex-row justify-center items-center bg-white rounded-2xl shadow p-6 m-5">
-            <div className="mt-7 md:mt-0 flex flex-col justify-end items-center md:w-1/2 w-full">
+        <div className="flex flex-col-reverse md:flex-row justify-center items-center bg-white rounded-2xl shadow p-6 m-5 gap-6">
+            <div className="mt-7 md:mt-0 flex flex-col  md:w-1/2 w-full">
                 <h2 className="text-2xl font-bold mb-4">{head}</h2>
                 <p className="text-gray-600 text-lg">{desc}</p>
             </div>
-            <div className="md:w-1/2 w-full rounded-2xl overflow-hidden flex justify-center items-center">
+            <div className="md:w-auto w-full rounded-2xl overflow-hidden flex justify-center items-center">
                 <Image src={img} alt={head} height={500} width={500} className="object-fit rounded-xl" />
             </div>
         </div>

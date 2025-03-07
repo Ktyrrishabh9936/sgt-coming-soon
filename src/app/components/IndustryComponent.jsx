@@ -15,10 +15,10 @@ export default function IndustryComponent() {
     const prevSlide = () => setIndex((prev) => (prev - 1 + data.length) % data.length);
 
     return (
-        <div className="p-7 bg-white mt-5">
+        <div className="p-7 bg-white mt-10 mb-7">
             <div className="flex justify-between items-center mb-4">
                 <div className="">
-                    <h2 className="text-2xl md:text-4xl font-semibold">Industrial Components & Supplies</h2>
+                    <h2 className="text-2xl md:text-4xl font-semibold mb-7">Industrial Components & Supplies</h2>
                 </div>
                 <div className="flex space-x-2">
                     <button onClick={prevSlide} className="p-2 rounded-full bg-gray-200 hover:bg-gray-300">

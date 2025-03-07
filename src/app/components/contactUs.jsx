@@ -39,7 +39,7 @@ export default function ContactUs() {
             </div>
 
             <div className="bg-gray-50">
-            <iframe width='100%' height='900px'  src='https://in.bigin.online/org60038429192/forms/enquiry-form'></iframe>
+            <iframe width='100%' height='700px'  src='https://in.bigin.online/org60038429192/forms/enquiry-form'></iframe>
         </div>
       </div>
       </div>

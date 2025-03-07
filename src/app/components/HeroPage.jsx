@@ -1,6 +1,8 @@
-import Link from "next/link";
-
+"use client"
+import { useState } from "react";
+import { Link } from "react-scroll";
 export default function HeroPage() {
+    const [activeSection, setActiveSection] = useState("home");
     return (
         <div id="home" className="h-screen w-full p-5">
             {/* Hero Section with Background Image */}
@@ -24,9 +26,14 @@ export default function HeroPage() {
                             </p> 
                         </div>
                         <div className="mt-4">
-                        <Link href="/" className="mt-4 bg-orange-600 text-white px-4 py-2 rounded-lg">
-                        Get Quote Today
-                        </Link>
+                        <Link  to="contact"
+      spy={true}
+      smooth={true}
+      offset={-100}
+      duration={500}
+      onSetActive={() => setActiveSection("contact")}  className="bg-orange-500 text-white px-4 py-2 cursor-pointer rounded-md">
+         Get Quote Today
+        </Link>
                         </div>
                     </div>
                 </div>

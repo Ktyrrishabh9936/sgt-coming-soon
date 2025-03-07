@@ -9,7 +9,7 @@ const Footer = () => {
         <footer className="bg-[#18191A] text-white p-8 mt-8">
             <div className="container mx-auto grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-3 gap-6 text-center max-w-6xl">
                 <div className=" flex items-center flex-col">
-                    <img src="/logo-white.png" alt="Logo" className="w-32 mb-4 bg-black p-3 rounded-lg shadow-lg shadow-orange-400" />
+                    <img src="/logo-white.png" alt="Logo" className="w-32 mb-4 " />
           
                     <div className="flex space-x-3 mt-4 text-xl">
                         <span className="  "><FaFacebook size={30}/></span>
@@ -37,7 +37,7 @@ const Footer = () => {
       to={section.link}
       spy={true}
       smooth={true}
-      offset={-70}
+      offset={-100}
       duration={500}
       className={`cursor-pointer`}
       onSetActive={() => setActiveSection(section.link)}
