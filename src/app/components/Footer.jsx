@@ -1,7 +1,8 @@
 "use client"
 import { useState } from "react";
 import { FaFacebook, FaInstagram, FaLinkedin } from "react-icons/fa";
-import { Link } from "react-scroll";
+import { Link as ScrollLink } from "react-scroll";
+import Link  from 'next/link'
 const Footer = () => {
     const sections = [{ name: "Home", link: "home" }, { name: "Services", link: "services" },{ name: "Choose Us", link: "choose" }, { name: "About Us", link: "serve" }];
      const [activeSection, setActiveSection] = useState("home");
@@ -12,9 +13,9 @@ const Footer = () => {
                     <img src="/logo-white.png" alt="Logo" className="w-32 mb-4 " />
           
                     <div className="flex space-x-3 mt-4 text-xl">
-                        <span className="  "><FaFacebook size={30}/></span>
-                        <span className=" "><FaInstagram size={30}/></span>
-                        <span className=""><FaLinkedin size={30}/></span>
+                        <Link href="https://www.facebook.com/share/1XKtj5HDHx/" ><FaFacebook size={30}/></Link>
+                        <Link href="https://www.instagram.com/sgt.make?igsh=MTNhZXJnZm5iMDZzdA==" ><FaInstagram size={30}/></Link>
+                        <Link href="https://www.linkedin.com/company/sgtmake/"><FaLinkedin size={30}/></Link>
                     </div>
                 </div>
                 <div>
@@ -32,7 +33,7 @@ const Footer = () => {
                     <h3 className="font-semibold mb-3">Quick Links</h3>
                     <ul className="text-sm space-y-2">
                     {sections.map((section) => (
-   <li key={section.link}>   <Link
+   <li key={section.link}>   <ScrollLink
       
       to={section.link}
       spy={true}
@@ -43,7 +44,7 @@ const Footer = () => {
       onSetActive={() => setActiveSection(section.link)}
     >
       {section.name}
-    </Link></li>
+    </ScrollLink></li>
       ))}
                     </ul>
                 </div>
