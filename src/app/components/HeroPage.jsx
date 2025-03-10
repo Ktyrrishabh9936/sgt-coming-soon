@@ -15,8 +15,7 @@ export default function HeroPage() {
                 <div className="absolute inset-0 flex items-center justify-center md:justify-start p-6 md:p-10">
                     <div className="text-white text-center md:text-left max-w-2xl">
                         <h1 className="text-3xl md:text-5xl font-bold leading-tight">
-                        Your One-Stop Manufacturing Partner
-
+                        Your One-Stop shop for Engineering Services
                         </h1>
                         <div className="mt-4 text-base md:text-lg">
                             <p className=" text-2xl">Custom Parts | Precision Engineering | Fast Turnaround
