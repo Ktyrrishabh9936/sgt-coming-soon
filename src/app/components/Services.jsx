@@ -29,8 +29,8 @@ export default function Services() {
         },
         {
             imgSrc: "/wiring.png",
-            title: "Wrining Harnesses",
-            description: "We build custom wiring harnesses for automotive, EV, and other applications, ensuring reliable electrical connections and power distribution."
+            title: "Wiring Harness",
+            description: "We build custom wiring harness for automotive, EV, and other applications, ensuring reliable electrical connections and power distribution."
         }
     ]
     return (

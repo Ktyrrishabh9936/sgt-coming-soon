@@ -23,7 +23,7 @@ export default function Home() {
       {/* <FeatureProduct/> */}
       <Choose/>
       <Serve/>
-      <CustomerReview/>
+      {/* <CustomerReview/> */}
       <GlobalDelivery/>
       <ContactUs/>
       <Footer/>
