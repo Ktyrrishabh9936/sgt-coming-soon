@@ -22,7 +22,7 @@ export const metadata = {
     siteName: "SGT Make",
     images: [
       {
-        url: `${origin}/soical-logo.png`, // Use an absolute URL
+        url: `${origin}/apple-touch-icon.png`, // Use an absolute URL
         width: 1200,
         height: 630,
         alt: "SGT Make ",
